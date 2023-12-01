@@ -1,0 +1,664 @@
+body{
+  padding: 0px;
+}
+.revealContainer {
+    display: flex;
+    justify-content: center;
+     height: 100vh;
+}
+.leftContainer {
+    width: 40%;
+}
+.leftImage {
+  height: 100%;
+  max-width: 100%;
+  width:100%;
+  position: relative;
+}
+.rightContainer {
+    width: 50%;
+    padding: 30px 0px 0 47px;
+}
+.rightImage {
+    height: auto;
+    width: 120px;
+    max-width: 100%;
+    margin-top: 12px;
+}
+.heading {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.discription {
+    margin-top: 0px;
+    width:101%;
+    font-size: 11px;
+    font-weight: 400;
+}
+.information {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #4272f9;
+    font-weight: bold;
+}
+.labelSize {
+    font-size: 9px;
+    margin-top: 2px;
+}
+
+.fieldSize{
+    max-width: 315px;
+    border-radius: 2px;
+    max-height: 25px;
+    background-color: #f4f6ff;
+}
+.messageSize {
+    font-size: 8px;
+}
+.startedButton {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: none;
+  letter-spacing: 0.3px;
+  color: #fff;
+  background: #4272f9;
+}
+.login {
+    font-size: 9px;
+    margin-top: 0px;
+    font-weight: 500;
+    padding-top: 2px;
+}
+
+.loginButton{
+   display: contents;
+   color: #4272f9;
+}
+
+.image{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.loginSize{
+    padding: 5px 30px;
+}
+.forgot{
+    font-size: 9px;
+    margin-top: 5px;
+    font-weight: 500;
+    padding-top: 2px;
+}
+.forgotButton{
+    display: contents;
+   color: #122121;
+}
+.loginfieldSize{
+    max-width: 270px;
+    border-radius: 2px;
+    max-height: 25px;
+    background-color: #f4f6ff;
+}
+
+.loginForm {
+    display: grid;
+    justify-content: center;
+}
+.formFields {
+    width: 265px;
+    display: inline-block;
+}
+.topbarLogo{
+    height: 50px;
+    width: 172px;
+    margin-left: 12px;
+    border-right: 1px solid #f1f0f4;
+}
+.topbarLogo img{
+     height: 50px;
+    width: 100px; 
+}
+.topbar{
+    border-bottom: 2px solid #e7e5ee;
+    display: flex;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 230px;
+    margin-left: auto;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+    background-image: linear-gradient(209deg, #d6e1fa 0 23%, #f5edf7 54% 100%);
+}  
+  .sidebar-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #122121;
+    font-size: 10px;
+    gap: 6px;
+    height: 25px;
+    font-weight: 500;
+    margin-left: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar-bottom-option {
+    margin-top: auto; /* Push the "Settings" option to the bottom */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .notifications{
+    height: 45px;
+    padding-top: 10px;
+    border-bottom: 1px solid #edf2ff;
+  }
+
+  .options{
+    margin-top: 25px;
+  }
+  .dashboard-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .dashboard{
+    background-color: #f9f9fc;
+    width: 88%;
+    padding-bottom: 20px;
+  }
+  .welcomeName{
+    padding: 18px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+  }
+  .smile{
+    margin: 4px;
+    color: #4272f9;
+  }
+  .detailBox{
+    padding: 3px;
+    width: 94%;
+    background-image: linear-gradient(178deg, #d6e1fa 0 51%, #f5edf7 75% 43%);
+    margin: auto;
+    border-radius: 4px;
+    min-height: 100px;
+  }
+  .multiStepForm{
+    padding: 28px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px 3px 0px 0px;
+    display: inline-block;
+  }
+  .rocket{
+    display: flex;
+    padding: 8px;
+  }
+  .rocketbox{
+    height: 36px;
+    width: 36px;
+    margin-left: 20px;
+    border-radius:3px;
+    background-color: #fff;
+  }
+  .rocketIcon{
+    margin: 10px;
+    color: #0680fe;
+  }
+
+  .rocketmsg{
+    margin: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0680fe;
+  }
+
+  .informationBox{  
+  background: #ffff;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  width: 94%;
+  border-radius: 5px;
+  min-height: 100vh;
+
+  }
+
+  .businessHeading{
+    padding: 20px 0px 0px 35px;
+    font-size: 12px;
+    color: #4272f9;
+    font-weight: bold;
+  }
+
+  .orderHeading{
+    font-size: 12px;
+    font-weight: bold;
+    color:#25253e
+  }
+  .taxId{
+    padding: 10px 0px 0px 35px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .dashboardField{
+    max-width: 350px;
+    font-size: 11px;
+  }
+  .messageDashboard{
+    font-size: 10px;
+  }
+  .checkboxLabel{
+    max-width: 350px;
+    font-size: 11px;
+  }
+  .arrowIcon{
+    margin-top: -1px;
+  }
+
+  .space{
+    margin-left: 16px;
+    margin-bottom: 12px;
+  }
+  .Badge{
+    height: 12px;
+    width: 12px;
+    border-radius: 20px;
+    background: #4272f9;
+    position: absolute;
+    font-size: 7px;
+    color: #fff;
+    margin: 2px 0px 0px -7px;
+    text-align: center;
+  }
+  .badgeContainer{
+    margin-left: 58px;
+  }
+  .selected{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #7498fb;
+    background-color: #fff;
+    font-size: 10px;
+    gap: 6px;
+    height: 25px;
+    font-weight: 500;
+    padding-left: 16px;
+    text-decoration: none;
+  }
+
+.css-10mg1vw-MuiStepper-root {
+  height: auto;
+  margin: -20px;
+}
+.css-1hv8oq8-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  font-size: 10px;
+}
+
+.css-1vyamtt-MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel {
+  text-align: center;
+  margin-top: -7px;
+}
+.customColor {
+  border: 1px solid #bfcffb;
+  margin-left: 26px;
+  width: 95%;
+  border-radius: 3px;
+}
+.searchIcon{
+  position: absolute;
+  margin-left: -34px;
+  margin-top: 11px;
+  color: #acb4d6;
+}
+.input-group{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 98%;
+}
+.circleIcon{
+  color: #34c38f;
+  margin: 5px;
+}
+.circleIconPending{
+  color: #f6a629;
+  margin: 5px;
+
+}
+.comments{
+  color: #34c38f;
+  font-size: 12px;
+}
+.commentsPending{
+  color: #f6a629;
+  font-size: 12px;
+
+}
+.compeleteBtn{
+    font-size: 9px;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    background: #34c38f;
+    width: 65px;
+}
+.compeleteBtnPending{
+  font-size: 9px;
+  font-weight: 500;
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  background: #f6a629;
+  width: 65px;
+}
+
+.eyeContainer {
+  display: inline-block;
+  position: relative;
+  width: 24px; /* Adjust the size as needed */
+  height: 24px; /* Adjust the size as needed */
+  border-radius: 50%;
+  margin-left: 10px;
+  background: #b2b6ea
+}
+.listContainer{
+  display: inline-block;
+  position: relative;
+  width: 24px; /* Adjust the size as needed */
+  height: 24px; /* Adjust the size as needed */
+  border-radius: 50%;
+  margin-left: 10px;
+  background: #9273e3
+}
+
+.eye{
+  margin-bottom: 5px;
+  margin-left: 4px;
+  color: #fff
+}
+
+.status{
+  width: 211px;
+}
+
+.nameCandidate{
+  padding-left: 20px;
+}
+
+.createButton{
+  display: inline-block;
+    font-size: 9px;
+    height: 26px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 2px;
+    margin-top: 13px;
+    border: none;
+    letter-spacing: 0.3px;
+    color: #fff;
+    background: #4272f9;
+}
+.package{
+  display:flex;
+  width:97%;
+  justify-content: space-between;
+}
+.addIcon{
+  font-size: 19px;
+    padding-bottom: 2px;
+}
+.employmentPackage{
+  padding-left: 20px;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.revealCheck{
+  width: 128px;
+  height: 20px;
+  background-image: linear-gradient(209deg, #d6e1fa 0 23%, #f5edf7 54% 100%);
+  font-size: 11px;
+  text-align: center;
+  font-weight: 500;
+  color: #6f92f9;
+}
+.price{
+  color: #4272f9;
+  font-weight: 700;
+}
+.decimal{
+  font-size: 10px;
+}
+.screeningPoints{
+  width: 250px;
+  font-size: 10px;
+  font-weight: 400;
+  list-style: none;
+  padding-left: 0;
+}
+.screeningPoints li {
+   padding-left: 12px; /* Adjust the padding as needed */
+  position: relative;
+  margin-bottom: 8px; /* Adjust the margin between items as needed */
+}
+.screeningPoints li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px; /* Adjust the size of the checkmark */
+  height: 8px; /* Adjust the size of the checkmark */
+  background: url('../../assets/images/check-mark.png') no-repeat center center;
+  background-size: cover; /* Ensure the image covers the container */
+  margin-right: 8px; /*Adjust the space between the checkmark and text*/
+}
+.orderBtn {
+  font-size: 9px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: 1px solid #4272f9;
+  color: #4272f9;
+  width: 80px;
+  background-color: #fff;
+}
+.prepackage {
+  border-bottom: #61262600;
+}
+
+.chechboxConatiner{
+  height: 50px;
+    width: 160px;
+    background: #f0eefa;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.checkboxLable{
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 14px;
+  color: #4a4d53;
+}
+
+.checkboxText{
+  font-size: 8px;
+    padding-left: 32px;
+    color: #ada9c0;
+}
+.selectPackage{
+  font-size: 12px;
+    font-weight: 500;
+    color: #25253e;
+}
+.preEmployment{
+  border: 1px solid #d4e0fa;
+    max-width: 90%;
+    margin-left: 24px;
+    border-radius: 3px;
+    background-color: #f0f4ff;
+}
+.checkPreEmployment{
+  margin-top: 20px;
+  display: flex;
+}
+.educationVerification{
+  border: 1px solid #d4e0fa;
+  width: 90%;
+  margin-left: 24px;
+  border-radius: 3px;
+}
+.tableClass{
+  overflow: auto;
+}
+.addBtn{
+  font-size: 9px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: 1px solid #25253e;
+  color: #25253e;
+  background-color: #fff;
+  padding: inherit;
+}
+.informationText{
+  font-size: 10px;
+  font-weight: 500;
+}
+.criminal{
+  border-bottom: 1px solid #dee7ff;
+  margin: 3px 38px;
+  padding-bottom: 3px;
+}
+.criminalLast{
+  margin: 3px 38px;
+  padding-bottom: 3px;
+}
+.informationImage{
+  height: 15px;
+  margin: 10px;
+}
+.recordsDropdown{
+  margin-top: 10px;
+    margin-left: 22px;
+    width: 90%;
+    border-color:#dee7ff;
+}
+.summaryContainer{
+  border: 1px solid #dee7ff;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 30%;
+    padding-right: 30px;
+}
+.summaryHeading{
+  font-size: 12px;
+  font-weight: bold;
+  color:#25253e;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+.summaryText{
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.subText {
+    font-size: 10px;
+  font-weight: 600;
+  color: #6f92f9;
+}
+.summaryBorder{
+  border-bottom: 1px solid #dee7ff;
+  padding-bottom: 15px;
+  margin: 3px;
+}
+.subTotal{
+  font-size: 10px;
+  font-weight: 400;
+  color: #b0bde3;
+}
+.subtotalBorder{
+  border-bottom: 1px solid #dee7ff;
+  padding-bottom: 5px;
+  margin: 3px;
+}
+.summaryButton{
+  text-align: center;
+    margin-top: 120px;
+}
+.reviewDescription{
+  width: 69%;
+  padding: 5px 0px 0px 35px;
+  font-weight: 400;
+  font-size: 11px;
+}
+ .candidatesBox{
+  padding-left: 48px;
+} 
+
+.candidatesContainer{
+  border: 1px solid #dee7ff;
+    border-radius: 4px;
+    width: 99%;
+    margin-top: 10px;
+}
+
+.partitionRow{
+  border-bottom: 1px solid #dee7ff;
+    margin: 0px 8px;
+    padding-bottom: 3px;
+}
+.CandidateText{
+  font-size: 10px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.workbox{
+  margin-left: 20px;
+}
+.editButton{
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0px 10px;
+    border-radius: 15px;
+    border: none;
+    color: #6189fa;
+    background: #eaeffe;
+}
+.paymentHeading{
+  font-size: 14px;
+  font-weight: bold;
+  color: #25253e;
+  padding: 15px 0px 0px 0px;
+}
+.fontField{
+  font-size: 11px;
+}
+.tablefontsize{
+  font-size: 12px;
+}
+nav ul {
+  list-style-type: none; /* Removes the default list item bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
