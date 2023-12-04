@@ -60,13 +60,15 @@ body{
   display: inline-block;
   font-size: 10px;
   font-weight: 500;
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
+  padding: 5px 18px;
   border-radius: 4px;
-  margin-top: 10px;
+  margin: 10px 0px 10px 0px;
   border: none;
   letter-spacing: 0.3px;
   color: #fff;
   background: #4272f9;
+  
 }
 .login {
     font-size: 9px;
@@ -99,19 +101,20 @@ body{
    color: #122121;
 }
 .loginfieldSize{
-    max-width: 270px;
     border-radius: 2px;
     max-height: 25px;
     background-color: #f4f6ff;
+    
 }
 
 .loginForm {
     display: grid;
-    justify-content: center;
-}
+    justify-content: center; 
+  }
 .formFields {
-    width: 265px;
+    width: 100%;
     display: inline-block;
+    margin-right: 50px;
 }
 .topbarLogo{
     height: 50px;
@@ -434,8 +437,8 @@ body{
   font-weight: 500;
 }
 .revealCheck{
-  width: 128px;
-  height: 20px;
+   max-width: 128px;
+  max-height: 20px; 
   background-image: linear-gradient(209deg, #d6e1fa 0 23%, #f5edf7 54% 100%);
   font-size: 11px;
   text-align: center;
@@ -450,7 +453,7 @@ body{
   font-size: 10px;
 }
 .screeningPoints{
-  width: 250px;
+  /* width: 250px; */
   font-size: 10px;
   font-weight: 400;
   list-style: none;
@@ -567,8 +570,9 @@ body{
   border: 1px solid #dee7ff;
     border-radius: 3px;
     margin-top: 10px;
-    width: 30%;
     padding-right: 30px;
+    position: relative;
+    min-height: 300px;
 }
 .summaryHeading{
   font-size: 12px;
@@ -603,8 +607,11 @@ body{
   margin: 3px;
 }
 .summaryButton{
-  text-align: center;
-    margin-top: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    text-align: center;
 }
 .reviewDescription{
   width: 69%;
@@ -621,6 +628,7 @@ body{
     border-radius: 4px;
     width: 99%;
     margin-top: 10px;
+    margin-left: 0;
 }
 
 .partitionRow{
@@ -661,4 +669,58 @@ nav ul {
   list-style-type: none; /* Removes the default list item bullets */
   padding: 0; /* Removes default padding */
   margin: 0; /* Removes default margin */
+}
+.imageContainer{
+    display: flex;
+    justify-content: flex-end;
+} 
+.creditCardImages{
+  height: 25px;
+  margin-top: 5px;
+}
+.visaImage{
+  height: 25px;
+  margin-top: 5px;
+  margin-right: -2px;
+}
+.americanImage{
+  height: 29px;
+    margin-top: 3px;
+    margin-left: -4px;
+}
+.discoverImage{
+  height: 25px;
+    margin-top: 5px;
+    margin-left: -6px;
+}
+.paymentContainer{
+  padding-left: 37px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.payPalImage{
+  height: 40px;
+  float: right;
+  margin: -6px;
+  padding-right: 22px;
+}
+.googlepayImage{
+  height: 12px;
+  margin-top: 5px;
+  float: right;
+  padding-right: 18px;
+}
+.applepayImage{
+  height: 25px;
+  float: right;
+  padding-right: 22px;
+}
+.total{
+  margin: 12px;
+  color: #4272f9;
+  font-size: 12px;
+  font-weight: 600;
+}
+.totalprice{
+float: inline-end;
 }

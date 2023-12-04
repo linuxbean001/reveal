@@ -8,7 +8,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Topbar = () => {
   return (
-    <div className="topbar">
+    <div className="topbar ">
       <div className="topbarLogo">
         <img src={logo} />
       </div>

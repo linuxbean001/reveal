@@ -43,7 +43,7 @@ const Login = () => {
                     aria-describedby="emailHelp"
                   />
                 </div>
-                <div className="">
+                <div className="formFields">
                   <label
                     htmlFor="exampleInputPassword1"
                     className="form-label labelSize"
@@ -67,7 +67,7 @@ const Login = () => {
                 </div>
               </form>
               <div className="forgot  text-center">
-                <Link to="/login" className="forgotButton">
+                <Link to="/login" className="forgotButton ">
                   Forgot password?
                 </Link>
               </div>

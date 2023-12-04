@@ -28,8 +28,8 @@ const Candidates = () => {
             </div>
           </form>
           <div className="informationBox">
-            <div class="container mt-3">
-              <table class="table">
+            <div class="container mt-3 tableClass">
+              <table class="table ">
                 <thead className="table-light">
                   <tr style={{ border: "aliceblue" , fontSize:'12px' }}>
                     <th ><span className="nameCandidate">Candidate Name</span></th>

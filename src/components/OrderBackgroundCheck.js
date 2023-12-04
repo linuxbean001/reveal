@@ -14,6 +14,11 @@ import Sidebar from "./Sidebar";
 
 import american from '../assets/images/american.png'
 import discover from '../assets/images/discover.png'
+import mastercard from '../assets/images/mastercard.png'
+import visa from '../assets/images/visa.png'
+import paypal from '../assets/images/paypal.png'
+import googlepay from '../assets/images/googlepay.png'
+import applepay from '../assets/images/applepay.png'
 const steps = [
   "Select Candidate",
   "Select Package",
@@ -149,7 +154,7 @@ function OrderBackgroundCheck() {
         );
       case 1:
         return (
-          <div>
+          <div className="container">
             {/* Content for step 2 */}
             <div className="businessHeading orderHeading ">
               Select the package that meets your requirement.
@@ -278,7 +283,7 @@ function OrderBackgroundCheck() {
         );
       case 2:
         return (
-          <div>
+          <div className="container">
             {/* Content for step 3 */}
             <div className="businessHeading orderHeading ">
               Select additional searches if required.
@@ -484,26 +489,69 @@ function OrderBackgroundCheck() {
                     </div>
                   </div>
                   <div className="paymentHeading ">Payment Method</div>
-                  <div className="candidatesContainer">
-                    <div class="form-check">
+                  <div className="candidatesContainer row">
+                    <div class="form-check paymentContainer col-md-6">
                       <input
                         class="form-check-input"
                         type="radio"
                         name="flexRadioDefault"
                         id="flexRadioDefault1"
                       />
-                      <label class="form-check-label" for="flexRadioDefault1">
+                      <label class="form-check-label fontField" for="flexRadioDefault1">
                         Credit Card
-                        <span>
-                        <img src={american}/>
-                        <img src={discover}/>
-                        </span>
                       </label>
                     </div>
+                      <span className="imageContainer col-md-6">
+                        <img src={visa} className="visaImage" />
+                        <img src={mastercard} className="creditCardImages" />
+                        <img src={american} className="americanImage" />
+                        <img src={discover} className="discoverImage" />
+                        </span>
                   </div>
-                  <div className="candidatesContainer">Paypal</div>
-                  <div className="candidatesContainer">Google Pay</div>
-                  <div className="candidatesContainer">Apple Pay</div>
+                  <div className="candidatesContainer">
+                  <div class="form-check paymentContainer">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label fontField" for="flexRadioDefault1">
+                        Paypal
+                      </label>
+                      <img src={paypal} className="payPalImage " />
+                    </div>
+                  </div>
+                  <div className="candidatesContainer">
+                  <div class="form-check paymentContainer">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label fontField" for="flexRadioDefault1">
+                        Google Pay
+                      </label>
+                      <img src={googlepay} className="googlepayImage" />
+
+                    </div>
+                  </div>
+                  <div className="candidatesContainer">
+                  <div class="form-check paymentContainer">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label fontField" for="flexRadioDefault1">
+                        Apple Pay
+                      </label>
+                      <img src={applepay} className="applepayImage" />
+
+                    </div>
+                  </div>
                 </div>
 
                 <div className="col-md-4 summaryContainer">
@@ -525,6 +573,10 @@ function OrderBackgroundCheck() {
                       $19.99
                       <div className="subTotal">$2.56 </div>
                     </div>
+                  </div>
+                  <div className="total">
+                    <span>Total</span>
+                    <span className="totalprice">$23.99</span>
                   </div>
                   <div className="summaryButton">
                     <button
@@ -576,7 +628,7 @@ function OrderBackgroundCheck() {
               </div>
             </div>
           </div>
-          <div className="informationBox">
+          <div className="informationBox ">
             <div>{renderStepContent(activeStep)}</div>
             {(activeStep === 0 || activeStep === 1) && (
               <div className="taxId">
