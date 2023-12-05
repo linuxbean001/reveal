@@ -4,12 +4,11 @@ import heading from "../assets/images/img_2.png";
 import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
-
   const navigate = useNavigate();
 
-  const login=()=>{
-   navigate('/dashboard')
-  }
+  const login = () => {
+    navigate("/dashboard");
+  };
   return (
     <div class="container ">
       <div className="row">
@@ -58,7 +57,7 @@ const Login = () => {
                 </div>
                 <div className="text-center forgot">
                   <button
-                  onClick={login}
+                    onClick={login}
                     type="submit"
                     className="btn startedButton loginSize "
                   >

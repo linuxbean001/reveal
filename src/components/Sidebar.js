@@ -92,12 +92,10 @@ const Sidebar = () => {
                 <FaFileCircleCheck /> Packages
               </NavLink>
             </li>
-
-           
           </ul>
         </nav>
       </div>
-    
+
       <div className="sidebar-option space sidebar-bottom-option">
         <FaCog />
         Settings

@@ -16,7 +16,7 @@ const Dashboard = () => {
           </div>
           <div className="detailBox">
             <div className="multiStepForm">
-            <MultiStepForm/>
+              <MultiStepForm />
             </div>
             <div className="rocket">
               <div className="rocketbox">

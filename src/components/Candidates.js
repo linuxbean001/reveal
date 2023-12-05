@@ -31,8 +31,10 @@ const Candidates = () => {
             <div class="container mt-3 tableClass">
               <table class="table ">
                 <thead className="table-light">
-                  <tr style={{ border: "aliceblue" , fontSize:'12px' }}>
-                    <th ><span className="nameCandidate">Candidate Name</span></th>
+                  <tr style={{ border: "aliceblue", fontSize: "12px" }}>
+                    <th>
+                      <span className="nameCandidate">Candidate Name</span>
+                    </th>
                     <th>Created</th>
                     <th> Comments</th>
                     <th>Status</th>
@@ -41,10 +43,12 @@ const Candidates = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <FaCircleCheck className="circleIcon" /> 
+                      <FaCircleCheck className="circleIcon" />
                       <span className="tablefontsize">Ron Kilgarlin</span>
                     </td>
-                    <td><span className="tablefontsize">10-12-2023</span></td>
+                    <td>
+                      <span className="tablefontsize">10-12-2023</span>
+                    </td>
                     <td>
                       <span className="comments">Reports Emailed</span>
                     </td>
@@ -66,10 +70,12 @@ const Candidates = () => {
 
                   <tr>
                     <td>
-                      <FaCircleCheck className="circleIconPending" /> 
+                      <FaCircleCheck className="circleIconPending" />
                       <span className="tablefontsize">Brad Heriage</span>
                     </td>
-                    <td><span className="tablefontsize">10-12-2023</span></td>
+                    <td>
+                      <span className="tablefontsize">10-12-2023</span>
+                    </td>
                     <td>
                       <span className="commentsPending">
                         Awaiting Candidate

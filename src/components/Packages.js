@@ -48,7 +48,7 @@ const Packages = () => {
                     <th>Actions</th>
                   </tr>
                 </thead>
-                <tbody> 
+                <tbody>
                   <tr className="prepackage">
                     <td>
                       <div className="employmentPackage">
@@ -56,22 +56,25 @@ const Packages = () => {
                         <div className="revealCheck">Reveal Check Plus </div>
                       </div>
                     </td>
-                    <td><span className="price">$19.<span className="decimal">99</span></span></td>
                     <td>
-                     <ul className="screeningPoints">
-                      <li>National criminal database</li>
-                      <li>Address, Names, & DOB verification</li>
-                      <li>Social security</li>
-                      <li>Sex offender</li>
-                      <li>Global watchlist</li>
-                      <li>Statewide criminal database</li>
-                     </ul>
+                      <span className="price">
+                        $19.<span className="decimal">99</span>
+                      </span>
+                    </td>
+                    <td>
+                      <ul className="screeningPoints">
+                        <li>National criminal database</li>
+                        <li>Address, Names, & DOB verification</li>
+                        <li>Social security</li>
+                        <li>Sex offender</li>
+                        <li>Global watchlist</li>
+                        <li>Statewide criminal database</li>
+                      </ul>
                     </td>
                     <td>
                       <button type="submit" className="orderBtn ">
                         ORDER NOW
                       </button>
-                    
                     </td>
                   </tr>
 
@@ -79,61 +82,67 @@ const Packages = () => {
                     <td>
                       <div className="employmentPackage">
                         Pre-Employment Package
-                        <div className="revealCheck">Reveal Check Compelete </div>
+                        <div className="revealCheck">
+                          Reveal Check Compelete{" "}
+                        </div>
                       </div>
                     </td>
-                    <td><span className="price">$32.<span className="decimal">99</span></span></td>
                     <td>
-                     <ul className="screeningPoints">
-                      <li>National criminal database</li>
-                      <li>Address, Names, & DOB verification</li>
-                      <li>Social security</li>
-                      <li>Sex offender</li>
-                      <li>Global watchlist</li>
-                      <li>Statewide criminal database</li>
-                      <li>Unlimited country criminal check</li>
-                     </ul>
+                      <span className="price">
+                        $32.<span className="decimal">99</span>
+                      </span>
+                    </td>
+                    <td>
+                      <ul className="screeningPoints">
+                        <li>National criminal database</li>
+                        <li>Address, Names, & DOB verification</li>
+                        <li>Social security</li>
+                        <li>Sex offender</li>
+                        <li>Global watchlist</li>
+                        <li>Statewide criminal database</li>
+                        <li>Unlimited country criminal check</li>
+                      </ul>
                     </td>
                     <td>
                       <button type="submit" className="orderBtn ">
                         ORDER NOW
                       </button>
-                    
                     </td>
                   </tr>
-                  
 
                   <tr className="prepackage">
                     <td>
                       <div className="employmentPackage">
                         Reveal Check Executive
-                        <div className="revealCheck">Reveal Check Executive </div>
+                        <div className="revealCheck">
+                          Reveal Check Executive{" "}
+                        </div>
                       </div>
                     </td>
-                    <td><span className="price">$52.<span className="decimal">99</span></span></td>
                     <td>
-                     <ul className="screeningPoints">
-                      <li>National criminal database</li>
-                      <li>Address, Names, & DOB verification</li>
-                      <li>Social security</li>
-                      <li>Sex offender</li>
-                      <li>Global watchlist</li>
-                      <li>Statewide criminal database</li>
-                      <li>Education Verification</li>
-                      <li>Federal Criminal Search </li>
-                      <li>Employment Verifications </li>
-                     </ul>
+                      <span className="price">
+                        $52.<span className="decimal">99</span>
+                      </span>
+                    </td>
+                    <td>
+                      <ul className="screeningPoints">
+                        <li>National criminal database</li>
+                        <li>Address, Names, & DOB verification</li>
+                        <li>Social security</li>
+                        <li>Sex offender</li>
+                        <li>Global watchlist</li>
+                        <li>Statewide criminal database</li>
+                        <li>Education Verification</li>
+                        <li>Federal Criminal Search </li>
+                        <li>Employment Verifications </li>
+                      </ul>
                     </td>
                     <td>
                       <button type="submit" className="orderBtn ">
                         ORDER NOW
                       </button>
-                    
                     </td>
                   </tr>
-                  
-                  
-                 
                 </tbody>
               </table>
             </div>

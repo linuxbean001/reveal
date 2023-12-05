@@ -12,13 +12,13 @@ import StepLabel from "@mui/material/StepLabel";
 import Topbar from "./Topbar";
 import Sidebar from "./Sidebar";
 
-import american from '../assets/images/american.png'
-import discover from '../assets/images/discover.png'
-import mastercard from '../assets/images/mastercard.png'
-import visa from '../assets/images/visa.png'
-import paypal from '../assets/images/paypal.png'
-import googlepay from '../assets/images/googlepay.png'
-import applepay from '../assets/images/applepay.png'
+import american from "../assets/images/american.png";
+import discover from "../assets/images/discover.png";
+import mastercard from "../assets/images/mastercard.png";
+import visa from "../assets/images/visa.png";
+import paypal from "../assets/images/paypal.png";
+import googlepay from "../assets/images/googlepay.png";
+import applepay from "../assets/images/applepay.png";
 const steps = [
   "Select Candidate",
   "Select Package",
@@ -27,9 +27,8 @@ const steps = [
 ];
 
 function OrderBackgroundCheck() {
-  const [selectedOption, setSelectedOption] = useState('option1');
+  const [selectedOption, setSelectedOption] = useState("option1");
 
-  
   const [activeStep, setActiveStep] = useState(0);
 
   const [isChecked, setIsChecked] = useState(false);
@@ -40,6 +39,10 @@ function OrderBackgroundCheck() {
 
   const handleOptionChange = (option) => {
     setSelectedOption(option);
+  };
+
+  const handleStepClick = (index) => {
+    setActiveStep(index);
   };
 
   const nextStep = () => {
@@ -154,45 +157,45 @@ function OrderBackgroundCheck() {
         );
       case 1:
         return (
-          <div className="container">
+          <div>
             {/* Content for step 2 */}
-            <div className="businessHeading orderHeading ">
+            <div className="businessHeading orderHeading container ">
               Select the package that meets your requirement.
             </div>
             <div class="container mt-3">
               <div className="row">
-                <div className="col-md-5">
-                  <span className="selectPackage ms-5">PACKAGE NAME</span>
+                <div className="col-md-5 tableheading">
+                  <span className="selectPackage ms-5 ">PACKAGE NAME</span>
                 </div>
-                <div className="col-md-4">
-                  <span className="selectPackage">INCLUDED SEARCHES</span>
+                <div className="col-md-4 tableheading">
+                  <span className="selectPackage ">INCLUDED SEARCHES</span>
                 </div>
-                <div className="col-md-3">
-                  <span className="selectPackage">COST</span>
+                <div className="col-md-3 tableheading">
+                  <span className="selectPackage ">COST</span>
                 </div>
               </div>
 
               <div className="row mt-3 preEmployment">
                 <div className="checkPreEmployment">
                   <div className="col-md-5">
-                
-                    <div class="form-check">
+                    <div class="form-check selectOption">
                       <input
                         class="form-check-input"
                         type="radio"
                         name="exampleRadios1"
                         id="exampleRadios1"
                         value="option1"
-                        checked={selectedOption === 'option1'}
-                        onChange={() => handleOptionChange('option1')}
+                        checked={selectedOption === "option1"}
+                        onChange={() => handleOptionChange("option1")}
                       />
-                      <label class="form-check-label selectPackage" for="exampleRadios1">
-                      Pre-Employment Package
+                      <label
+                        class="form-check-label selectPackage"
+                        for="exampleRadios1"
+                      >
+                        Pre-Employment Package
                       </label>
                       <div className="revealCheck">Reveal Check Plus </div>
                     </div>
-                
-                    
                   </div>
                   <div className="col-md-5">
                     <ul className="screeningPoints">
@@ -215,19 +218,21 @@ function OrderBackgroundCheck() {
               <div className="row mt-3 educationVerification">
                 <div className="checkPreEmployment">
                   <div className="col-md-5">
-                 
-                      <div class="form-check">
+                    <div class="form-check selectOption">
                       <input
                         class="form-check-input"
                         type="radio"
                         name="exampleRadios1"
                         id="exampleRadios2"
                         value="option2"
-                        checked={selectedOption === 'option2'}
-                        onChange={() => handleOptionChange('option2')}
+                        checked={selectedOption === "option2"}
+                        onChange={() => handleOptionChange("option2")}
                       />
-                      <label class="form-check-label selectPackage" for="exampleRadios1">
-                      Education Verification
+                      <label
+                        class="form-check-label selectPackage"
+                        for="exampleRadios1"
+                      >
+                        Education Verification
                       </label>
                     </div>
                   </div>
@@ -248,22 +253,23 @@ function OrderBackgroundCheck() {
               <div className="row mt-3 educationVerification">
                 <div className="checkPreEmployment">
                   <div className="col-md-5">
-               
-                      <div class="form-check">
+                    <div class="form-check selectOption">
                       <input
                         class="form-check-input"
                         type="radio"
                         name="exampleRadios1"
                         id="exampleRadios3"
-                        value='option3'
-                        checked={selectedOption === 'option3'}
-                        onChange={() => handleOptionChange('option3')}
+                        value="option3"
+                        checked={selectedOption === "option3"}
+                        onChange={() => handleOptionChange("option3")}
                       />
-                      <label class="form-check-label selectPackage" for="exampleRadios1">
-                      MVR Instant Driving Record Search
+                      <label
+                        class="form-check-label selectPackage"
+                        for="exampleRadios1"
+                      >
+                        MVR Instant Driving Record Search
                       </label>
                     </div>
-                     
                   </div>
                   <div className="col-md-5">
                     <ul className="screeningPoints">
@@ -497,59 +503,69 @@ function OrderBackgroundCheck() {
                         name="flexRadioDefault"
                         id="flexRadioDefault1"
                       />
-                      <label class="form-check-label fontField" for="flexRadioDefault1">
+                      <label
+                        class="form-check-label fontField"
+                        for="flexRadioDefault1"
+                      >
                         Credit Card
                       </label>
                     </div>
-                      <span className="imageContainer col-md-6">
-                        <img src={visa} className="visaImage" />
-                        <img src={mastercard} className="creditCardImages" />
-                        <img src={american} className="americanImage" />
-                        <img src={discover} className="discoverImage" />
-                        </span>
+                    <span className="imageContainer col-md-6">
+                      <img src={visa} className="visaImage" />
+                      <img src={mastercard} className="creditCardImages" />
+                      <img src={american} className="americanImage" />
+                      <img src={discover} className="discoverImage" />
+                    </span>
                   </div>
                   <div className="candidatesContainer">
-                  <div class="form-check paymentContainer">
+                    <div class="form-check paymentContainer">
                       <input
                         class="form-check-input"
                         type="radio"
                         name="flexRadioDefault"
                         id="flexRadioDefault1"
                       />
-                      <label class="form-check-label fontField" for="flexRadioDefault1">
+                      <label
+                        class="form-check-label fontField"
+                        for="flexRadioDefault1"
+                      >
                         Paypal
                       </label>
                       <img src={paypal} className="payPalImage " />
                     </div>
                   </div>
                   <div className="candidatesContainer">
-                  <div class="form-check paymentContainer">
+                    <div class="form-check paymentContainer">
                       <input
                         class="form-check-input"
                         type="radio"
                         name="flexRadioDefault"
                         id="flexRadioDefault1"
                       />
-                      <label class="form-check-label fontField" for="flexRadioDefault1">
+                      <label
+                        class="form-check-label fontField"
+                        for="flexRadioDefault1"
+                      >
                         Google Pay
                       </label>
                       <img src={googlepay} className="googlepayImage" />
-
                     </div>
                   </div>
                   <div className="candidatesContainer">
-                  <div class="form-check paymentContainer">
+                    <div class="form-check paymentContainer">
                       <input
                         class="form-check-input"
                         type="radio"
                         name="flexRadioDefault"
                         id="flexRadioDefault1"
                       />
-                      <label class="form-check-label fontField" for="flexRadioDefault1">
+                      <label
+                        class="form-check-label fontField"
+                        for="flexRadioDefault1"
+                      >
                         Apple Pay
                       </label>
                       <img src={applepay} className="applepayImage" />
-
                     </div>
                   </div>
                 </div>
@@ -619,7 +635,7 @@ function OrderBackgroundCheck() {
                 <Box sx={{ width: "90%" }}>
                   <Stepper activeStep={activeStep} alternativeLabel>
                     {steps.map((label, index) => (
-                      <Step key={label}>
+                      <Step key={label} onClick={() => handleStepClick(index)}>
                         <StepLabel>{label}</StepLabel>
                       </Step>
                     ))}
@@ -640,14 +656,14 @@ function OrderBackgroundCheck() {
                 >
                   Continue <FaArrowRight className="arrowIcon" />
                 </button>
-                <button
+                {/* <button
                   type="button"
                   className="btn startedButton"
                   onClick={prevStep}
                   disabled={activeStep === 0}
                 >
                   Back
-                </button>
+                </button> */}
               </div>
             )}
           </div>

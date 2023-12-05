@@ -1,66 +1,65 @@
-body{
+body {
   padding: 0px;
 }
 .revealContainer {
-    display: flex;
-    justify-content: center;
-     height: 100vh;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 .leftContainer {
-    width: 40%;
+  width: 40%;
 }
 .leftImage {
   height: 100%;
   max-width: 100%;
-  width:100%;
+  width: 100%;
   position: relative;
 }
 .rightContainer {
-    width: 50%;
-    padding: 30px 0px 0 47px;
+  width: 50%;
+  padding: 30px 0px 0 47px;
 }
 .rightImage {
-    height: auto;
-    width: 120px;
-    max-width: 100%;
-    margin-top: 12px;
+  height: auto;
+  width: 120px;
+  max-width: 100%;
+  margin-top: 12px;
 }
 .heading {
-    margin-top: 8px;
-    font-size: 16px;
-    font-weight: 400;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
 }
 .discription {
-    margin-top: 0px;
-    width:101%;
-    font-size: 11px;
-    font-weight: 400;
+  margin-top: 0px;
+  width: 101%;
+  font-size: 11px;
+  font-weight: 400;
 }
 .information {
-    margin-top: 15px;
-    font-size: 12px;
-    color: #4272f9;
-    font-weight: bold;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #4272f9;
+  font-weight: bold;
 }
 .labelSize {
-    font-size: 9px;
-    margin-top: 2px;
+  font-size: 9px;
+  margin-top: 2px;
 }
 
-.fieldSize{
-    max-width: 315px;
-    border-radius: 2px;
-    max-height: 25px;
-    background-color: #f4f6ff;
+.fieldSize {
+  max-width: 315px;
+  border-radius: 2px;
+  max-height: 25px;
+  background-color: #f4f6ff;
 }
 .messageSize {
-    font-size: 8px;
+  font-size: 8px;
 }
 .startedButton {
   display: inline-block;
   font-size: 10px;
   font-weight: 500;
-  /* padding: 10px 30px; */
   padding: 5px 18px;
   border-radius: 4px;
   margin: 10px 0px 10px 0px;
@@ -68,170 +67,169 @@ body{
   letter-spacing: 0.3px;
   color: #fff;
   background: #4272f9;
-  
 }
 .login {
-    font-size: 9px;
-    margin-top: 0px;
-    font-weight: 500;
-    padding-top: 2px;
+  font-size: 9px;
+  margin-top: 0px;
+  font-weight: 500;
+  padding-top: 2px;
 }
 
-.loginButton{
-   display: contents;
-   color: #4272f9;
+.loginButton {
+  display: contents;
+  color: #4272f9;
 }
 
-.image{
-    text-align: center;
-    margin-top: 50px;
+.image {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.loginSize{
-    padding: 5px 30px;
+.loginSize {
+  padding: 5px 30px;
 }
-.forgot{
-    font-size: 9px;
-    margin-top: 5px;
-    font-weight: 500;
-    padding-top: 2px;
+.forgot {
+  font-size: 9px;
+  margin-top: 5px;
+  font-weight: 500;
+  padding-top: 2px;
 }
-.forgotButton{
-    display: contents;
-   color: #122121;
+.forgotButton {
+  display: contents;
+  color: #122121;
 }
-.loginfieldSize{
-    border-radius: 2px;
-    max-height: 25px;
-    background-color: #f4f6ff;
-    
+.loginfieldSize {
+  border-radius: 2px;
+  max-height: 25px;
+  background-color: #f4f6ff;
 }
 
 .loginForm {
-    display: grid;
-    justify-content: center; 
-  }
+  display: grid;
+  justify-content: center;
+}
 .formFields {
-    width: 100%;
-    display: inline-block;
-    margin-right: 50px;
+  width: 100%;
+  display: inline-block;
+  margin-right: 50px;
 }
-.topbarLogo{
-    height: 50px;
-    width: 172px;
-    margin-left: 12px;
-    border-right: 1px solid #f1f0f4;
+.topbarLogo {
+  height: 50px;
+  width: 172px;
+  margin-left: 12px;
+  border-right: 1px solid #f1f0f4;
 }
-.topbarLogo img{
-     height: 50px;
-    width: 100px; 
+.topbarLogo img {
+  height: 50px;
+  width: 100px;
 }
-.topbar{
-    border-bottom: 2px solid #e7e5ee;
-    display: flex;
+.topbar {
+  border-bottom: 2px solid #e7e5ee;
+  display: flex;
 }
-.icons{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 230px;
-    margin-left: auto;
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 230px;
+  margin-left: auto;
 }
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    width: 194px;
-    background-image: linear-gradient(209deg, #d6e1fa 0 23%, #f5edf7 54% 100%);
-}  
-  .sidebar-option {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    cursor: pointer;
-    color: #122121;
-    font-size: 10px;
-    gap: 6px;
-    height: 25px;
-    font-weight: 500;
-    margin-left: 16px;
-    text-decoration: none;
-  }
-  
-  .sidebar-bottom-option {
-    margin-top: auto; /* Push the "Settings" option to the bottom */
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 194px;
+  background-image: linear-gradient(209deg, #d6e1fa 0 23%, #f5edf7 54% 100%);
+}
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #122121;
+  font-size: 10px;
+  gap: 6px;
+  height: 25px;
+  font-weight: 500;
+  margin-left: 16px;
+  text-decoration: none;
+}
 
-  .notifications{
-    height: 45px;
-    padding-top: 10px;
-    border-bottom: 1px solid #edf2ff;
-  }
+.sidebar-bottom-option {
+  margin-top: auto; /* Push the "Settings" option to the bottom */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
 
-  .options{
-    margin-top: 25px;
-  }
-  .dashboard-content{
-    display: flex;
-    justify-content: space-between;
-  }
-  .dashboard{
-    background-color: #f9f9fc;
-    width: 88%;
-    padding-bottom: 20px;
-  }
-  .welcomeName{
-    padding: 18px;
-    margin-left: 10px;
-    font-size: 12px;
-    font-weight: 500;
-    display: flex;
-  }
-  .smile{
-    margin: 4px;
-    color: #4272f9;
-  }
-  .detailBox{
-    padding: 3px;
-    width: 94%;
-    background-image: linear-gradient(178deg, #d6e1fa 0 51%, #f5edf7 75% 43%);
-    margin: auto;
-    border-radius: 4px;
-    min-height: 100px;
-  }
-  .multiStepForm{
-    padding: 28px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 3px 3px 0px 0px;
-    display: inline-block;
-  }
-  .rocket{
-    display: flex;
-    padding: 8px;
-  }
-  .rocketbox{
-    height: 36px;
-    width: 36px;
-    margin-left: 20px;
-    border-radius:3px;
-    background-color: #fff;
-  }
-  .rocketIcon{
-    margin: 10px;
-    color: #0680fe;
-  }
+.notifications {
+  height: 45px;
+  padding-top: 10px;
+  padding-right: 20px;
+  border-bottom: 1px solid #edf2ff;
+}
 
-  .rocketmsg{
-    margin: 8px;
-    font-size: 12px;
-    font-weight: bold;
-    color: #0680fe;
-  }
+.options {
+  margin-top: 25px;
+}
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard {
+  background-color: #f9f9fc;
+  width: 88%;
+  padding-bottom: 20px;
+}
+.welcomeName {
+  padding: 18px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+}
+.smile {
+  margin: 4px;
+  color: #4272f9;
+}
+.detailBox {
+  padding: 3px;
+  width: 94%;
+  background-image: linear-gradient(178deg, #d6e1fa 0 51%, #f5edf7 75% 43%);
+  margin: auto;
+  border-radius: 4px;
+  min-height: 100px;
+}
+.multiStepForm {
+  padding: 28px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px 3px 0px 0px;
+  display: inline-block;
+}
+.rocket {
+  display: flex;
+  padding: 8px;
+}
+.rocketbox {
+  height: 36px;
+  width: 36px;
+  margin-left: 20px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.rocketIcon {
+  margin: 10px;
+  color: #0680fe;
+}
 
-  .informationBox{  
+.rocketmsg {
+  margin: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #0680fe;
+}
+
+.informationBox {
   background: #ffff;
   margin: auto;
   margin-top: 10px;
@@ -239,73 +237,72 @@ body{
   width: 94%;
   border-radius: 5px;
   min-height: 100vh;
+}
 
-  }
+.businessHeading {
+  padding: 20px 0px 0px 35px;
+  font-size: 12px;
+  color: #4272f9;
+  font-weight: bold;
+}
 
-  .businessHeading{
-    padding: 20px 0px 0px 35px;
-    font-size: 12px;
-    color: #4272f9;
-    font-weight: bold;
-  }
+.orderHeading {
+  font-size: 12px;
+  font-weight: bold;
+  color: #25253e;
+}
+.taxId {
+  padding: 10px 0px 0px 35px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.dashboardField {
+  max-width: 350px;
+  font-size: 11px;
+}
+.messageDashboard {
+  font-size: 10px;
+}
+.checkboxLabel {
+  max-width: 350px;
+  font-size: 11px;
+}
+.arrowIcon {
+  margin-top: -1px;
+}
 
-  .orderHeading{
-    font-size: 12px;
-    font-weight: bold;
-    color:#25253e
-  }
-  .taxId{
-    padding: 10px 0px 0px 35px;
-    font-size: 12px;
-    font-weight: 500;
-  }
-  .dashboardField{
-    max-width: 350px;
-    font-size: 11px;
-  }
-  .messageDashboard{
-    font-size: 10px;
-  }
-  .checkboxLabel{
-    max-width: 350px;
-    font-size: 11px;
-  }
-  .arrowIcon{
-    margin-top: -1px;
-  }
-
-  .space{
-    margin-left: 16px;
-    margin-bottom: 12px;
-  }
-  .Badge{
-    height: 12px;
-    width: 12px;
-    border-radius: 20px;
-    background: #4272f9;
-    position: absolute;
-    font-size: 7px;
-    color: #fff;
-    margin: 2px 0px 0px -7px;
-    text-align: center;
-  }
-  .badgeContainer{
-    margin-left: 58px;
-  }
-  .selected{
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    cursor: pointer;
-    color: #7498fb;
-    background-color: #fff;
-    font-size: 10px;
-    gap: 6px;
-    height: 25px;
-    font-weight: 500;
-    padding-left: 16px;
-    text-decoration: none;
-  }
+.space {
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+.Badge {
+  height: 12px;
+  width: 12px;
+  border-radius: 20px;
+  background: #4272f9;
+  position: absolute;
+  font-size: 7px;
+  color: #fff;
+  margin: 2px 0px 0px -7px;
+  text-align: center;
+}
+.badgeContainer {
+  margin-left: 58px;
+}
+.selected {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #7498fb;
+  background-color: #fff;
+  font-size: 10px;
+  gap: 6px;
+  height: 25px;
+  font-weight: 500;
+  padding-left: 16px;
+  text-decoration: none;
+}
 
 .css-10mg1vw-MuiStepper-root {
   height: auto;
@@ -325,47 +322,45 @@ body{
   width: 95%;
   border-radius: 3px;
 }
-.searchIcon{
+.searchIcon {
   position: absolute;
   margin-left: -34px;
   margin-top: 11px;
   color: #acb4d6;
 }
-.input-group{
+.input-group {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   width: 98%;
 }
-.circleIcon{
+.circleIcon {
   color: #34c38f;
   margin: 5px;
 }
-.circleIconPending{
+.circleIconPending {
   color: #f6a629;
   margin: 5px;
-
 }
-.comments{
+.comments {
   color: #34c38f;
   font-size: 12px;
 }
-.commentsPending{
+.commentsPending {
   color: #f6a629;
   font-size: 12px;
-
 }
-.compeleteBtn{
-    font-size: 9px;
-    font-weight: 500;
-    border-radius: 2px;
-    border: none;
-    color: #fff;
-    background: #34c38f;
-    width: 65px;
+.compeleteBtn {
+  font-size: 9px;
+  font-weight: 500;
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  background: #34c38f;
+  width: 65px;
 }
-.compeleteBtnPending{
+.compeleteBtnPending {
   font-size: 9px;
   font-weight: 500;
   border-radius: 2px;
@@ -382,85 +377,84 @@ body{
   height: 24px; /* Adjust the size as needed */
   border-radius: 50%;
   margin-left: 10px;
-  background: #b2b6ea
+  background: #b2b6ea;
 }
-.listContainer{
+.listContainer {
   display: inline-block;
   position: relative;
   width: 24px; /* Adjust the size as needed */
   height: 24px; /* Adjust the size as needed */
   border-radius: 50%;
   margin-left: 10px;
-  background: #9273e3
+  background: #9273e3;
 }
 
-.eye{
+.eye {
   margin-bottom: 5px;
   margin-left: 4px;
-  color: #fff
+  color: #fff;
 }
 
-.status{
+.status {
   width: 211px;
 }
 
-.nameCandidate{
+.nameCandidate {
   padding-left: 20px;
 }
 
-.createButton{
+.createButton {
   display: inline-block;
-    font-size: 9px;
-    height: 26px;
-    font-weight: 500;
-    padding: 5px 15px;
-    border-radius: 2px;
-    margin-top: 13px;
-    border: none;
-    letter-spacing: 0.3px;
-    color: #fff;
-    background: #4272f9;
+  font-size: 9px;
+  height: 26px;
+  font-weight: 500;
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin-top: 13px;
+  border: none;
+  letter-spacing: 0.3px;
+  color: #fff;
+  background: #4272f9;
 }
-.package{
-  display:flex;
-  width:97%;
+.package {
+  display: flex;
+  width: 97%;
   justify-content: space-between;
 }
-.addIcon{
+.addIcon {
   font-size: 19px;
-    padding-bottom: 2px;
+  padding-bottom: 2px;
 }
-.employmentPackage{
+.employmentPackage {
   padding-left: 20px;
   width: 300px;
   font-size: 14px;
   font-weight: 500;
 }
-.revealCheck{
-   max-width: 128px;
-  max-height: 20px; 
+.revealCheck {
+  max-width: 128px;
+  max-height: 20px;
   background-image: linear-gradient(209deg, #d6e1fa 0 23%, #f5edf7 54% 100%);
   font-size: 11px;
   text-align: center;
   font-weight: 500;
   color: #6f92f9;
 }
-.price{
+.price {
   color: #4272f9;
   font-weight: 700;
 }
-.decimal{
+.decimal {
   font-size: 10px;
 }
-.screeningPoints{
-  /* width: 250px; */
+.screeningPoints {
   font-size: 10px;
   font-weight: 400;
   list-style: none;
   padding-left: 0;
 }
 .screeningPoints li {
-   padding-left: 12px; /* Adjust the padding as needed */
+  padding-left: 12px; /* Adjust the padding as needed */
   position: relative;
   margin-bottom: 8px; /* Adjust the margin between items as needed */
 }
@@ -472,7 +466,7 @@ body{
   transform: translateY(-50%);
   width: 8px; /* Adjust the size of the checkmark */
   height: 8px; /* Adjust the size of the checkmark */
-  background: url('../../assets/images/check-mark.png') no-repeat center center;
+  background: url("../../assets/images/check-mark.png") no-repeat center center;
   background-size: cover; /* Ensure the image covers the container */
   margin-right: 8px; /*Adjust the space between the checkmark and text*/
 }
@@ -489,52 +483,52 @@ body{
   border-bottom: #61262600;
 }
 
-.chechboxConatiner{
+.chechboxConatiner {
   height: 50px;
-    width: 160px;
-    background: #f0eefa;
-    border-radius: 2px;
-    margin: 2px;
+  width: 160px;
+  background: #f0eefa;
+  border-radius: 2px;
+  margin: 2px;
 }
 
-.checkboxLable{
+.checkboxLable {
   font-size: 10px;
   font-weight: 500;
   margin-top: 14px;
   color: #4a4d53;
 }
 
-.checkboxText{
+.checkboxText {
   font-size: 8px;
-    padding-left: 32px;
-    color: #ada9c0;
+  padding-left: 32px;
+  color: #ada9c0;
 }
-.selectPackage{
+.selectPackage {
   font-size: 12px;
-    font-weight: 500;
-    color: #25253e;
+  font-weight: 500;
+  color: #25253e;
 }
-.preEmployment{
+.preEmployment {
   border: 1px solid #d4e0fa;
-    max-width: 90%;
-    margin-left: 24px;
-    border-radius: 3px;
-    background-color: #f0f4ff;
+  max-width: 90%;
+  margin-left: 24px;
+  border-radius: 3px;
+  background-color: #f0f4ff;
 }
-.checkPreEmployment{
+.checkPreEmployment {
   margin-top: 20px;
   display: flex;
 }
-.educationVerification{
+.educationVerification {
   border: 1px solid #d4e0fa;
   width: 90%;
   margin-left: 24px;
   border-radius: 3px;
 }
-.tableClass{
+.tableClass {
   overflow: auto;
 }
-.addBtn{
+.addBtn {
   font-size: 9px;
   font-weight: 700;
   border-radius: 2px;
@@ -543,126 +537,126 @@ body{
   background-color: #fff;
   padding: inherit;
 }
-.informationText{
+.informationText {
   font-size: 10px;
   font-weight: 500;
 }
-.criminal{
+.criminal {
   border-bottom: 1px solid #dee7ff;
   margin: 3px 38px;
   padding-bottom: 3px;
 }
-.criminalLast{
+.criminalLast {
   margin: 3px 38px;
   padding-bottom: 3px;
 }
-.informationImage{
+.informationImage {
   height: 15px;
   margin: 10px;
 }
-.recordsDropdown{
+.recordsDropdown {
   margin-top: 10px;
-    margin-left: 22px;
-    width: 90%;
-    border-color:#dee7ff;
+  margin-left: 22px;
+  width: 90%;
+  border-color: #dee7ff;
 }
-.summaryContainer{
+.summaryContainer {
   border: 1px solid #dee7ff;
-    border-radius: 3px;
-    margin-top: 10px;
-    padding-right: 30px;
-    position: relative;
-    min-height: 300px;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 300px;
 }
-.summaryHeading{
+.summaryHeading {
   font-size: 12px;
   font-weight: bold;
-  color:#25253e;
+  color: #25253e;
   margin-top: 8px;
   margin-left: 12px;
 }
-.summaryText{
+.summaryText {
   font-size: 10px;
   font-weight: 500;
   margin-top: 10px;
 }
 .subText {
-    font-size: 10px;
+  font-size: 10px;
   font-weight: 600;
   color: #6f92f9;
 }
-.summaryBorder{
+.summaryBorder {
   border-bottom: 1px solid #dee7ff;
   padding-bottom: 15px;
   margin: 3px;
 }
-.subTotal{
+.subTotal {
   font-size: 10px;
   font-weight: 400;
   color: #b0bde3;
 }
-.subtotalBorder{
+.subtotalBorder {
   border-bottom: 1px solid #dee7ff;
   padding-bottom: 5px;
   margin: 3px;
 }
-.summaryButton{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%); 
-    text-align: center;
+.summaryButton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
-.reviewDescription{
+.reviewDescription {
   width: 69%;
   padding: 5px 0px 0px 35px;
   font-weight: 400;
   font-size: 11px;
 }
- .candidatesBox{
+.candidatesBox {
   padding-left: 48px;
-} 
+}
 
-.candidatesContainer{
+.candidatesContainer {
   border: 1px solid #dee7ff;
-    border-radius: 4px;
-    width: 99%;
-    margin-top: 10px;
-    margin-left: 0;
+  border-radius: 4px;
+  width: 99%;
+  margin-top: 10px;
+  margin-left: 0;
 }
 
-.partitionRow{
+.partitionRow {
   border-bottom: 1px solid #dee7ff;
-    margin: 0px 8px;
-    padding-bottom: 3px;
+  margin: 0px 8px;
+  padding-bottom: 3px;
 }
-.CandidateText{
+.CandidateText {
   font-size: 10px;
-    font-weight: 500;
-    margin-top: 5px;
+  font-weight: 500;
+  margin-top: 5px;
 }
-.workbox{
+.workbox {
   margin-left: 20px;
 }
-.editButton{
-    font-size: 10px;
-    font-weight: 500;
-    padding: 0px 10px;
-    border-radius: 15px;
-    border: none;
-    color: #6189fa;
-    background: #eaeffe;
+.editButton {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 0px 10px;
+  border-radius: 15px;
+  border: none;
+  color: #6189fa;
+  background: #eaeffe;
 }
-.paymentHeading{
+.paymentHeading {
   font-size: 14px;
   font-weight: bold;
   color: #25253e;
   padding: 15px 0px 0px 0px;
 }
-.fontField{
+.fontField {
   font-size: 11px;
 }
-.tablefontsize{
+.tablefontsize {
   font-size: 12px;
 }
 nav ul {
@@ -670,57 +664,100 @@ nav ul {
   padding: 0; /* Removes default padding */
   margin: 0; /* Removes default margin */
 }
-.imageContainer{
-    display: flex;
-    justify-content: flex-end;
-} 
-.creditCardImages{
+.imageContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.creditCardImages {
   height: 25px;
   margin-top: 5px;
 }
-.visaImage{
+.visaImage {
   height: 25px;
   margin-top: 5px;
   margin-right: -2px;
 }
-.americanImage{
+.americanImage {
   height: 29px;
-    margin-top: 3px;
-    margin-left: -4px;
+  margin-top: 3px;
+  margin-left: -4px;
 }
-.discoverImage{
+.discoverImage {
   height: 25px;
-    margin-top: 5px;
-    margin-left: -6px;
+  margin-top: 5px;
+  margin-left: -6px;
 }
-.paymentContainer{
+.paymentContainer {
   padding-left: 37px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.payPalImage{
+.payPalImage {
   height: 40px;
   float: right;
   margin: -6px;
   padding-right: 22px;
 }
-.googlepayImage{
+.googlepayImage {
   height: 12px;
   margin-top: 5px;
   float: right;
   padding-right: 18px;
 }
-.applepayImage{
+.applepayImage {
   height: 25px;
   float: right;
   padding-right: 22px;
 }
-.total{
+.total {
   margin: 12px;
   color: #4272f9;
   font-size: 12px;
   font-weight: 600;
 }
-.totalprice{
-float: inline-end;
+.totalprice {
+  float: inline-end;
+}
+
+.selectOption .form-check-input:checked {
+  content: ""; /* Empty content to display background image */
+  display: inline-block;
+  width: 18px; /* Adjust the width and height based on your image size */
+  height: 18px;
+  background-image: url("../../assets//images/checked.png"); /* Replace with the URL of your checked image */
+  background-size: cover; /* Adjust based on your image requirements */
+  margin-right: 5px; /* Adjust the spacing between the checkbox and label */
+  border-color: #34c38f;
+  background-color: #34c38f;
+}
+
+@media only screen and (max-width: 600px) {
+  .orderHeading {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #25253e;
+  }
+  .checkPreEmployment {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .revealCheck {
+    max-width: 128px;
+    min-height: 40px;
+    background-image: linear-gradient(209deg, #d6e1fa 0 23%, #f5edf7 54% 100%);
+    font-size: 11px;
+    text-align: center;
+    font-weight: 500;
+    color: #6f92f9;
+  }
+  .tableheading {
+    text-align: center;
+    margin: 0;
+  }
+
+  .dashboardField div {
+    margin-top: 5px;
+  }
 }
